@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Styles.css" />
+    <link rel="stylesheet" href="./capstone.html" />
+  </head>
+  <body>
+    <header>
+      <h1>Login In</h1>
+      <a href="./capstone.html">Home</a>
+    </header>
+    <form id="form" method="post">
+      <label for="id">Username:</label>
+      <input type="text" name="id" autocomplete="username" />
+      <label for="password">Password:</label>
+      <input type="password" name="password" autocomplete="current-password" />
+      <input type="hidden" name="csrf_token" value="*****" />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>

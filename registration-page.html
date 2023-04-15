@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/Styles.css" />
+    <link rel="stylesheet" href="./images/" />
+  </head>
+  <nav>
+    <a href="./capstone.html">Home Page</a>
+  </nav>
+  <body>
+    <h1>Registration</h1>
+    <p>
+      Our registration page is a seamless and secure process that allows you to
+      join our industrial community. By filling out a simple form with your
+      basic information, you can create an account that grants you access to
+      exclusive features and benefits. You can trust that your information will
+      be kept confidential and used only for the purpose of registration. Join
+      us today and become a part of our thriving industrial community!
+    </p>
+    <div>
+      <form id="form" method="post">
+        <label for="id">First & Last Name</label>
+        <input type="text" name="id" autocomplete="name" />
+        <label for="id">Phone Number</label>
+        <input type="text" name="id" />
+        <label for="id">Address</label>
+        <input type="text" name="id" autocomplete="address-line1" />
+        <label for="id">Username:</label>
+        <input type="text" name="id" autocomplete="username" />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          autocomplete="current-password"
+        />
+        <input type="hidden" name="csrf_token" value="*****" />
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>
