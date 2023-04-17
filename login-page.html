@@ -5,15 +5,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/Styles.css" />
     <link rel="stylesheet" href="./capstone.html" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
       <h1>Login In</h1>
-      <a href="./capstone.html">Home</a>
+      <div>
+      <h3> Welcome Back </h3>
+      
+
+    </div>
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./login-page.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./registration-page.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products&services.html"
+                >Products&Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./capstone.html">Home</a>
+            </li>
+          </ul>
     </header>
+    
     <form id="form" method="post">
       <label for="id">Username:</label>
       <input type="text" name="id" autocomplete="username" />
@@ -21,6 +50,15 @@
       <input type="password" name="password" autocomplete="current-password" />
       <input type="hidden" name="csrf_token" value="*****" />
       <input type="submit" value="Login" />
+      <input type="checkbox" id="RememberMe" name="RememberMe" value="RememberMe">
+  <label for="RememberMe">Remember Me</label><br>
     </form>
+    <img src="./images/Industrial workers arms crossed.jpg" alt="Workers arms crossed">
+    <!--This is a bootstrap extension-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
