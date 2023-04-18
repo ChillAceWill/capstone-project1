@@ -1,43 +1,101 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout</title>
-    <link rel="stylesheet" href="css/Styles.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/Styles.css" />
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-            <div class="container-fluid">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="./login-page.html">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./registration-page.html">Register</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./products&services.html"
-                    >Products&Services</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="./checkout.html">Checkout</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="./capstone.html">Home</a>
-                  </li>
-              </ul>
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./login-page.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./registration-page.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products&services.html"
+                >Products&Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./capstone.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td id="pics">
+          <p>Bailing Press</p>
+          <img
+            class="cart-pic"
+            src="./images/Baling-press.jpg"
+            alt="Baling-press"
+          />
+        </td>
+        <td class="description">
+          This standard Ver-Tech Hydraulic Baling Press baler is the toughest
+          and most reliable vertical downstroke baling press on the market
+          today.
+        </td>
+        <td class="price">$25,754.00</td>
+      </tr>
+      <tr>
+        <td>
+          <p>Miller Bobcat 200 Air Pak 907771</p>
+          <img
+            class="cart-pic"
+            src="./images/miller-bobcat.jpg"
+            alt="miller-bobcat"
+          />
+        </td>
+        <td class="description">
+          Whatever the industry, this set will help you keep your equipment and
+          assets working, helping you compete more effectively. Get your work
+          done faster, easier, and safer with the Mammoth Tool Set from
+          Williams. All other tool sets are simply ordinary.
+        </td>
+        <td class="price">$17,239.00</td>
+      </tr>
+      <tr>
+        <td>
+          <p>Conco Balance Master</p>
+          <img
+            class="cart-pic"
+            src="./images/Conco-Balance-Master.jpg"
+            alt="Conco-Balance-Master"
+          />
+        </td>
+        <td class="description">
+          This pneumatic manipulator arm provides for exact positioning due to
+          free, almost effortless horizontal and vertical movement, constant
+          support and positive control at all times.
+        </td>
+        <td class="price">$19,900.00</td>
+      </tr>
+    </table>
     <!--This is a bootstrap extension-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
