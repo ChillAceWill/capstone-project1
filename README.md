@@ -48,7 +48,7 @@ Checkout
 
 Shipping Info Modal & Payment Info Modal
 ![image](https://user-images.githubusercontent.com/129989372/233500184-7ac6783c-8877-414a-8e3e-f08974fe76ff.png)
-![image](https://user-images.githubusercontent.com/129989372/233500277-6f34a79a-b3d9-4795-8dc4-9df6446a8893.png)
+![image](https://user-images.githubusercontent.com/129989372/233503255-f7c8f4d1-7786-4e0b-9b2a-ac9b169675f2.png)
 
 Success Page - on click of payment info submission
 ![image](https://user-images.githubusercontent.com/129989372/233502341-0a297e5e-1506-4053-8e6d-32c509c83fbb.png)
