@@ -12,7 +12,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - Includes a paragraph of tex.
 - as with the login page there are validated form fields.
 - a radio button is also featured.
-  Products&Services
+  Products
 - Included are three cards with a picture, a title as well as paragraph text, they are listed in a 3 column 2 row grid container class from bootstrap.
 - The add to cart button also navigates to the checkout page.
 - I changed the color of the add to cart button by updating the class name.
@@ -20,3 +20,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - Here you see a table with a header, text as well as a picture.
 - The pictures were placed in a flexbox, which then allowed me to place them in columns.
 - This page also features a shipping form with required validations.
+  Featured HTML/CSS from this project
+- Top Navigation with Login, Registration accessible via a login button right aligned on the top nav
+- highights to form inputs
+- navigation will always show the active page in the nav bar
