@@ -31,14 +31,7 @@ h2, h3 {
 .center {
  display: flex;
 }
-/*
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  background-color: lavenderblush;
-} */
+
 
 .box-shadow {
 
@@ -78,13 +71,9 @@ table {
   
 }
 
-.decription {
-  width: 50px;
-  height: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-float: right;
+.decription {  
+  align-items: center;
+
   
 }
 
@@ -128,4 +117,9 @@ th {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2%;
+}
+
+.sizing1 {
+ text-align: right;
+ padding-right: 200px;
 }
