@@ -34,7 +34,7 @@ The name of my site is GENA industrial we are a family industrial hardware store
 
   # Gena Industrial site Screenshots
 Homepage
-![image](https://user-images.githubusercontent.com/129989372/233500558-6b5bd36b-757d-492b-b3eb-927872942004.png)
+![image](https://user-images.githubusercontent.com/129989372/233504664-8b263ccc-e188-46be-8175-06f23f3151ba.png)
 
 Login
 ![image](https://user-images.githubusercontent.com/129989372/233500543-fe5c645f-2fec-40ee-9cbf-fc34a74caaa4.png)
