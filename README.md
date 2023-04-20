@@ -25,7 +25,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - highights to form inputs
 - navigation will always show the active page in the nav bar
 
-# Lena Industrial site Screenshots
+  # Lena Industrial site Screenshots
 Homepage
 ![image](https://user-images.githubusercontent.com/129989372/233500558-6b5bd36b-757d-492b-b3eb-927872942004.png)
 
@@ -46,3 +46,4 @@ Shipping Info Modal & Payment Info Modal
 ![image](https://user-images.githubusercontent.com/129989372/233500277-6f34a79a-b3d9-4795-8dc4-9df6446a8893.png)
 
 Success Page - on click of payment info submission
+![image](https://user-images.githubusercontent.com/129989372/233500947-dd8b4d85-2e9a-448c-b29c-f5a9c0dacd15.png)
