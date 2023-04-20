@@ -41,7 +41,7 @@ Registration
 ![image](https://user-images.githubusercontent.com/129989372/233500525-42a28b94-2950-428c-b564-aef57b17f9b7.png)
 
 Products
-![image](https://user-images.githubusercontent.com/129989372/233500506-5353d356-7db0-45dc-a78b-aaad3999b256.png)
+![image](https://user-images.githubusercontent.com/129989372/233503722-f05501e4-ae46-4f24-94d5-ee907aa7d3b0.png)
 
 Checkout
 ![image](https://user-images.githubusercontent.com/129989372/233500491-0e9ea38f-733b-414a-a90e-6ff07f83992c.png)
