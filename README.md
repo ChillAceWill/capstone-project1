@@ -24,7 +24,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - Navigation will always show the active page in the nav bar
 - Forms highlight one you click into the form field
 - The checkout page features two buttons that allow access to the Shipping & Payment info forms via a modal window; added using bootstrap
-- All of my buttons will lead you somewhere:
+- The following forms & buttons will lead you somewhere:
   - Registration form submission will lead to login page
   - Login form submission will lead to the products page
   - 'Add to cart' buttons will lead to the checkout page
