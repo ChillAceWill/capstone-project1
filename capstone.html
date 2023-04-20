@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LENA Industrial</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -16,11 +20,12 @@
   </head>
   <body>
     <header>
-      <h1>LENA Industrial</h1>
-      <h3>The Family Industrial Hardware Store</h3>
-      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./capstone.html">Home</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="./login-page.html">Login</a>
             </li>
@@ -28,9 +33,7 @@
               <a class="nav-link" href="./registration-page.html">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./products&services.html"
-                >Products&Services</a
-              >
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./checkout.html">Checkout</a>
@@ -39,40 +42,122 @@
         </div>
       </nav>
     </header>
-    <div>
-      <img
-        class="mainp1"
-        src="./images/Woman-Industry-Worker.jpg"
-        alt="Industrial Worker"
-      />
-    </div>
-    <div>
-      <p>
-        Welcome to our industrial website! With a team of passionate experts in
-        manufacturing and construction, we offer top-notch solutions for
-        businesses like yours. Our user-friendly website showcases our
-        cutting-edge products, services, and expertise through detailed
-        listings, multimedia content, and client testimonials.
-      </p>
-    </div>
-    <div>
-      <p>
-        But our website is more than just products and services. We believe in
-        empowering industry professionals with knowledge. That's why we offer
-        educational resources such as articles, whitepapers, and blog posts,
-        along with webinars and training programs to help you stay ahead of the
-        curve. Experience the personalized touch of our industrial community as
-        we strive to support your business growth. Welcome!
-      </p>
-    </div>
-    <div>
-      <h3>Here's some Companies we work with!</h3>
-      <ul>
-        <li>Honeywell International Inc.</li>
-        <li>3M Company</li>
-        <li>United Airlines Holding Inc.</li>
-      </ul>
-    </div>
+    <main>
+      <section>
+        <div class="p-4 text-white text-center">
+          <h1>Lena Industrial</h1>
+          <p>The family industrial hardware store</p>
+        </div>
+      </section>
+
+      <section>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide sizing" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/Industrial-working-woman.jpg"
+                alt="working-woman"
+                class="d-block sizing"
+                style="width: 100%"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <p>
+                <img
+                  src="images/Woman-Industry-Worker.jpg"
+                  alt="industry-woman"
+                  class="d-block sizing"
+                  style="width: 100%"
+                />
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/industrial-worker-white-hard-hat.png"
+                alt="worker-hard-hat"
+                class="d-block sizing"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <div class="container p-5 my-5 border">
+          <p style="color: lavenderblush">
+            Welcome to our industrial website! With a team of passionate experts
+            in manufacturing and construction, we offer top-notch solutions for
+            businesses like yours. Our user-friendly website showcases our
+            cutting-edge products, services, and expertise through detailed
+            listings, multimedia content, and client testimonials.
+          </p>
+
+          <p style="color: lavenderblush">
+            But our website is more than just products and services. We believe
+            in empowering industry professionals with knowledge. That's why we
+            offer educational resources such as articles, whitepapers, and blog
+            posts, along with webinars and training programs to help you stay
+            ahead of the curve. Experience the personalized touch of our
+            industrial community as we strive to support your business growth.
+            Welcome!
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container p-5 my-5 border">
+          <h3>Here's some Companies we work with!</h3>
+          <ul>
+            <li style="color: lavenderblush">Honeywell International Inc.</li>
+            <li style="color: lavenderblush">3M Company</li>
+            <li style="color: lavenderblush">United Airlines Holding Inc.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <!--This is a bootstrap extension-->
     <script
@@ -80,5 +165,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

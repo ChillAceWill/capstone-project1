@@ -3,50 +3,79 @@ body {
  ;
 }
 
-h1, h2, h3 {
-  color: lavenderblush;
+
+
+h1 {
+  color:lavenderblush;
 }
 
-.grid {
-    display: grid;
-  grid-template-columns: auto auto auto;
+h2, h3 {
+  color: lavender;
+}
+
+.grid-sizing {
+  margin-top: 2%;
   margin-left:15%;
   margin-right: 15%;
   margin-bottom: 20%;
-  
   font-size: small;
+} 
 
+#bottom-align {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
 
 .center {
  display: flex;
 }
-
+/*
 form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
   background-color: lavenderblush;
+} */
+
+.box-shadow {
+
+background-color: lavenderblush;
+padding-top: 3%;
+
 }
 
-table, th, td {
+ td {
   margin: 100px 100px 100px  ;
 }
 
-.cart-pic { display: flex;
+#align-right {
+  text-align: right;
+}
+
+.cart-pic { 
+  display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 200px;
   height: 200px;
   border: 2px solid lavenderblush;
-  
-
 }
+
+
+
+table {
+  margin-right:200px ;
+  max-width: fit-content;
+  margin-left: 200px;
+} 
 
 .price {
   width:10px;
   height:10px;
+  
 }
 
 .decription {
@@ -71,25 +100,9 @@ float: right;
 
 th {
   text-decoration: underline;
-  color:lavenderblush;
+  color:rgb(0, 3, 2);
 }
 
-input[type=text]{
-  width: 50%;
-}
-input[type=password]{
-  width: 50%;
-}
-input[type=submit]{
-  width: 50%;
-}
-input[type=checkbox]{
-  vertical-align: bottom;
-  margin-right: 100%;
-}
-input[type=tel]{
-  width: 50%;
-}
 .mainp1 {
   margin-left: 25%;
   width: 40%;
@@ -98,9 +111,11 @@ input[type=tel]{
   margin-left: 30%;
 }
 
-.mainp3 {
-  margin-left: 20%;
+.mainp3  {
+  height: auto;
+  width: auto;
 }
+
 
 .align-middle{
   width:50%;
@@ -109,4 +124,8 @@ input[type=tel]{
   align-items: center;
 }
 
-
+.sizing {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}

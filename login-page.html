@@ -17,13 +17,12 @@
   </head>
   <body>
     <header>
-      <h1>Login In</h1>
-      <div>
-        <h3>Welcome Back</h3>
-      </div>
-      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./capstone.html">Home</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" href="./login-page.html">Login</a>
             </li>
@@ -31,55 +30,73 @@
               <a class="nav-link" href="./registration-page.html">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./products&services.html"
-                >Products&Services</a
-              >
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./checkout.html">Checkout</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./capstone.html">Home</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+    <main>
+      <section>
+        <div class="container row sizing">
+          <div class="col box-shadow">
+            <form action="./products.html" class="form" name="login">
+              <div class="mb-3">
+                <label for="username" class="form-label">Username:</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  class="form-control"
+                  placeholder="Username"
+                  autocomplete="username"
+                  required
+                />
+              </div>
 
-    <form class="form" id="form" method="post">
-      <labe class="form-la" >Username:</label>
-      <input
-        type="text"
-        name="username"
-        id="username"
-        placeholder="Username"
-        autocomplete="username"
-        required
-      />
-      <label>Password:</label>
-      <input
-        type="password"
-        id="password"
-        placeholder="Enter password"
-        name="password"
-        autocomplete="current-password"
-        required
-      />
-      <input type="hidden" name="csrf_token" value="*****" />
-      <input type="submit" value="Login" />
-      <label for="checkbox1">Remember Me</label>
-      <input
-        type="checkbox"
-        id="checkbox1"
-        name="RememberMe"
-        value="RememberMe"
-      />
-    </form>
-    <img
-      class="mainp3"
-      src="./images/Industrial-workers-arms-crossed.jpg"
-      alt="Workers arms crossed"
-    />
+              <div class="mb-3">
+                <label for="password" class="form-label">Password:</label>
+                <input
+                  class="form-control"
+                  type="password"
+                  id="password"
+                  placeholder="Enter password"
+                  name="password"
+                  autocomplete="current-password"
+                  required
+                />
+                <input type="hidden" name="csrf_token" value="*****" />
+              </div>
+              <div class="mb-3 form-check">
+                <label for="checkbox1" class="form-check-label"
+                  >Remember Me</label
+                >
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="checkbox1"
+                  name="RememberMe"
+                  value="RememberMe"
+                />
+              </div>
+              <button type="submit" class="btn btn-success">Login</button>
+            </form>
+          </div>
+
+          <div class="col" style="background-color: lavenderblush">
+            <img
+              class="mainp3"
+              src="./images/Industrial-workers-arms-crossed.jpg"
+              alt="Workers arms crossed"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!--This is a bootstrap extension-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

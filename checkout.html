@@ -16,9 +16,12 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./capstone.html">Home</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="./login-page.html">Login</a>
             </li>
@@ -26,137 +29,295 @@
               <a class="nav-link" href="./registration-page.html">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./products&services.html"
-                >Products&Services</a
-              >
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="./checkout.html">Checkout</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./capstone.html">Home</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <table>
-      <tr>
-        <th>Item</th>
-        <th>Description</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td id="pics">
-          <p>Bailing Press</p>
-          <img
-            class="cart-pic"
-            src="./images/Baling-press.jpg"
-            alt="Baling-press"
-          />
-        </td>
-        <td class="description">
-          This standard Ver-Tech Hydraulic Baling Press baler is the toughest
-          and most reliable vertical downstroke baling press on the market
-          today.
-        </td>
-        <td class="price">$25,754.00</td>
-      </tr>
-      <tr>
-        <td>
-          <p>Miller Bobcat 200 Air Pak 907771</p>
-          <img
-            class="cart-pic"
-            src="./images/miller-bobcat.jpg"
-            alt="miller-bobcat"
-          />
-        </td>
-        <td class="description">
-          Whatever the industry, this set will help you keep your equipment and
-          assets working, helping you compete more effectively. Get your work
-          done faster, easier, and safer with the Mammoth Tool Set from
-          Williams. All other tool sets are simply ordinary.
-        </td>
-        <td class="price">$17,239.00</td>
-      </tr>
-      <tr>
-        <td>
-          <p>Conco Balance Master</p>
-          <img
-            class="cart-pic"
-            src="./images/Conco-Balance-Master.jpg"
-            alt="Conco-Balance-Master"
-          />
-        </td>
-        <td class="description">
-          This pneumatic manipulator arm provides for exact positioning due to
-          free, almost effortless horizontal and vertical movement, constant
-          support and positive control at all times.
-        </td>
-        <td class="price">$19,900.00</td>
-      </tr>
-    </table>
 
-    <!-- 
-      1) HTML Form w/ the appropriate fields: input fields, select field & submit button
+    <main>
+      <!--Heading-->
+      <section>
+        <div class="p-4 text-white text-center">
+          <h1>Checkout</h1>
+        </div>
+      </section>
+
+      <!--Table-->
+      <section>
+        <br />
+        <table class="table table-light">
+          <tr class="table-success">
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td id="pics">
+              <p>Bailing Press</p>
+              <img
+                class="cart-pic"
+                src="./images/Baling-press.jpg"
+                alt="Baling-press"
+              />
+            </td>
+            <td class="description">
+              This standard Ver-Tech Hydraulic Baling Press baler is the
+              toughest and most reliable vertical downstroke baling press on the
+              market today.
+            </td>
+            <td class="price">$25,754.00</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Miller Bobcat 200 Air Pak 907771</p>
+              <img
+                class="cart-pic"
+                src="./images/miller-bobcat.jpg"
+                alt="miller-bobcat"
+              />
+            </td>
+            <td class="description">
+              Whatever the industry, this set will help you keep your equipment
+              and assets working, helping you compete more effectively. Get your
+              work done faster, easier, and safer with the Mammoth Tool Set from
+              Williams. All other tool sets are simply ordinary.
+            </td>
+            <td class="price">$17,239.00</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Conco Balance Master</p>
+              <img
+                class="cart-pic"
+                src="./images/Conco-Balance-Master.jpg"
+                alt="Conco-Balance-Master"
+              />
+            </td>
+            <td class="description">
+              This pneumatic manipulator arm provides for exact positioning due
+              to free, almost effortless horizontal and vertical movement,
+              constant support and positive control at all times.
+            </td>
+            <td class="price">$19,900.00</td>
+          </tr>
+          <tr class="table-success">
+            <td></td>
+            <td id="align-right">Total:</td>
+            <td>62,894</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- MUST HAVE
+      1) HTML Form w/ the appropriate fields: 
+        input fields, 
+        select field 
+        & submit button for purchaser info
+
       2) input fields have HTML validations i.e. required, max length
+    
+      you can do payment or shipping info fields?
     -->
 
-    <div>
-      <form id="form" method="post">
-        <label>First & Last Name</label>
-        <input
-          type="text"
-          name="id"
-          autocomplete="name"
-          placeholder="Craigbert Smith"
-          id="name"
-          required
-        />
-        <label>Phone Number</label>
-        <input
-          type="tel"
-          name="id"
-          placeholder="###-###-####"
-          id="number"
-          required
-        />
-        <label>Address</label>
-        <input
-          type="text"
-          name="id"
-          autocomplete="address-level2"
-          placeholder="1234 Pilsberry Lane"
-          id="address"
-          required
-        />
-        <label>Username:</label>
-        <input
-          type="text"
-          name="id"
-          placeholder="SquigglyG33!"
-          id="username"
-          maxlength="15"
-          required
-        />
-        <!--Password Field-->
-
-        <label>Password:</label>
-        <input
-          type="password"
-          name="password"
-          placeholder="**************"
-          id="password"
-          maxlength="15"
-          required
-        />
-
-        <!--2) radio buttons w responses "How did you hear about us?"-->
-        <div>
-          <br />
-          <button class="btn-primary btn">Submit</button>
+      <section>
+        <div class="container row sizing">
+          <!--Enter Shipping-->
+          <div
+            class="modal fade"
+            id="shipping-info"
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1
+                    class="modal-title fs-5"
+                    style="color: rgb(126, 208, 189)"
+                  >
+                    Shipping Info
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <!--Shipping Info-->
+                <div class="modal-body">
+                  <form name="shipping-info">
+                    <div class="mb-3">
+                      <label class="col-form-label" for="fname"
+                        >First Name *</label
+                      >
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="fname"
+                        maxlength="15"
+                        placeholder="Anthony"
+                        required
+                      />
+                    </div>
+                    <div class="mt-3 mb-3">
+                      <label class="col-form-label" for="lname"
+                        >Last Name *</label
+                      >
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="lname"
+                        placeholder="Drinklebottom"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label class="col-form-label" for="shipping"
+                        >Shipping Address *</label
+                      >
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="shipping"
+                        placeholder="Input address"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <select class="form-select" name="state" id="state">
+                        <option value="GA">Georgia</option>
+                        <option value="FL">Florida</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="default" selected disabled>
+                          -select state-
+                        </option>
+                      </select>
+                    </div>
+                    <input
+                      type="submit"
+                      value="submit"
+                      class="btn btn-success"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </form>
+
+        <!--Payment Information-->
+        <div
+          class="modal fade"
+          id="enter-payment"
+          tabindex="-1"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" style="color: rgb(126, 208, 189)">
+                  Payment Information
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form name="enter-payment" action="/success.html">
+                  <div class="mb-3">
+                    <label class="col-form-label" for="first-name"
+                      >First Name *</label
+                    >
+                    <input
+                      class="form-control"
+                      type="text"
+                      id="first-name"
+                      maxlength="15"
+                      placeholder="Anthony"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="col-form-label" for="last-name"
+                      >Last Name *</label
+                    >
+                    <input
+                      class="form-control"
+                      type="text"
+                      id="last-name"
+                      placeholder="Drinklebottom"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="col-form-label" for="cc-info"
+                      >Debit/Credit Card *</label
+                    >
+                    <input
+                      class="form-control"
+                      type="text"
+                      id="cc-info"
+                      required
+                    />
+                    <div class="mb-3">
+                      <label class="col-form-label" for="shipping-address"
+                        >Shipping Address *</label
+                      >
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="shipping-address"
+                        placeholder="Input address"
+                        autocomplete="address-level4"
+                        required
+                      />
+
+                      <input
+                        type="submit"
+                        value="submit"
+                        class="btn btn-success"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--modal buttons-->
+        <div>
+          <button
+            type="button"
+            class="btn btn-success"
+            data-bs-toggle="modal"
+            data-bs-target="#shipping-info"
+          >
+            Enter Shipping
+          </button>
+          <button
+            type="button"
+            class="btn btn-success"
+            data-bs-toggle="modal"
+            data-bs-target="#enter-payment"
+          >
+            Enter Payment
+          </button>
+        </div>
+        <br />
+        <br />
+      </section>
+    </main>
+
     <!--This is a bootstrap extension-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
