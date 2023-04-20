@@ -4,6 +4,8 @@ The name of my site is LENA industrial we are a family industrial hardware store
 
 - I have a top navbar that I sourced from bootstrap using w3schools. I also changed the color of it by updating the class name.
 - Included on the home page are two paragraphs as well as an unordered list. I added a class to the image and centered it using the margin-left property in my css.
+- Added a bootstrap carousel to my homepage with a custom sizing class to add padding around the carousel
+
   # Login
 - I have a login page for users to enter a username, password as well as use the remember me checkbox.
 - The picture on this page was centered with a class that has a margin-left property value of 30% because of the image size.
