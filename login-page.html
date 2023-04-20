@@ -46,23 +46,37 @@
       </nav>
     </header>
 
-    <form id="form" method="post">
-      <label>Username:</label>
-      <input type="text" name="id" autocomplete="username" />
+    <form class="form" id="form" method="post">
+      <labe class="form-la" >Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+        autocomplete="username"
+        required
+      />
       <label>Password:</label>
-      <input type="password" name="password" autocomplete="current-password" />
+      <input
+        type="password"
+        id="password"
+        placeholder="Enter password"
+        name="password"
+        autocomplete="current-password"
+        required
+      />
       <input type="hidden" name="csrf_token" value="*****" />
       <input type="submit" value="Login" />
+      <label for="checkbox1">Remember Me</label>
       <input
         type="checkbox"
-        id="RememberMe"
+        id="checkbox1"
         name="RememberMe"
         value="RememberMe"
       />
-      <label for="RememberMe">Remember Me</label><br />
     </form>
     <img
-      class="center"
+      class="mainp3"
       src="./images/Industrial-workers-arms-crossed.jpg"
       alt="Workers arms crossed"
     />

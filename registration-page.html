@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,28 +8,31 @@
       content="width=
     , initial-scale=1.0"
     />
+
     <title>Registration</title>
-    <link rel="stylesheet" href="./css/Styles.css" />
-    <link rel="stylesheet" href="./images/" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/Styles.css" />
+    <link rel="stylesheet" href="./images/" />
   </head>
 
   <body>
     <header>
-    <h1>Registration</h1>
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <h1>Registration</h1>
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="./login-page.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./registration-page.html">Register</a>
+              <a class="nav-link active" href="./registration-page.html"
+                >Register</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./products&services.html"
@@ -38,39 +40,126 @@
               >
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="./checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="./capstone.html">Home</a>
             </li>
           </ul>
+        </div>
+      </nav>
     </header>
-    <p>
-      Our registration page is a seamless and secure process that allows you to
-      join our industrial community. By filling out a simple form with your
-      basic information, you can create an account that grants you access to
-      exclusive features and benefits. You can trust that your information will
-      be kept confidential and used only for the purpose of registration. Join
-      us today and become a part of our thriving industrial community!
-    </p>
-    <div>
-      <form id="form" method="post">
-        <label for="id">First & Last Name</label>
-        <input type="text" name="id" autocomplete="name" />
-        <label for="id">Phone Number</label>
-        <input type="text" name="id" />
-        <label for="id">Address</label>
-        <input type="text" name="id" autocomplete="address-line1" />
-        <label for="id">Username:</label>
-        <input type="text" name="id" autocomplete="username" />
-        <label for="password">Password:</label>
-        <input
-          type="password"
-          name="password"
-          autocomplete="current-password"
+    <main>
+      <section>
+        <!--1) Html form w/ p, username,phone number, ect. p-->
+
+        <p>
+          Our registration page is a seamless and secure process that allows you
+          to join our industrial community. By filling out a simple form with
+          your basic information, you can create an account that grants you
+          access to exclusive features and benefits. You can trust that your
+          information will be kept confidential and used only for the purpose of
+          registration. Join us today and become a part of our thriving
+          industrial community!
+        </p>
+        <div>
+          <form id="form" method="post">
+            <label>First & Last Name</label>
+            <input
+              type="text"
+              name="id"
+              autocomplete="name"
+              placeholder="Craigbert Smith"
+              id="name"
+              required
+            />
+            <label>Phone Number</label>
+            <input
+              type="tel"
+              name="id"
+              placeholder="###-###-####"
+              id="number"
+              required
+            />
+            <label>Address</label>
+            <input
+              type="text"
+              name="id"
+              autocomplete="address-level2"
+              placeholder="1234 Pilsberry Lane"
+              id="address"
+              required
+            />
+            <label>Username:</label>
+            <input
+              type="text"
+              name="id"
+              placeholder="SquigglyG33!"
+              id="username"
+              maxlength="15"
+              required
+            />
+            <!--Password Field-->
+
+            <label>Password:</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="**************"
+              id="password"
+              maxlength="15"
+              required
+            />
+
+            <!--2) radio buttons w responses "How did you hear about us?"-->
+            <h4>How did you hear about us?</h4>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="radio1"
+                name="radioopt"
+                value="option1"
+              />
+              <label class="form-check-label" for="radio1">Friend</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="radio2"
+                name="radioopt"
+                value="option2"
+              />
+              <label class="form-check-label" for="radio2"
+                >Online Advertisement</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="radio3"
+                name="radioopt"
+                value="option3"
+              />
+              <label class="form-check-label" for="radio3">Space Alien</label>
+            </div>
+
+            <div>
+              <br />
+              <button class="btn-primary btn">Submit</button>
+            </div>
+          </form>
+        </div>
+        <img
+          class="mainp2"
+          src="./images/Bussiness-man-arms-crossed.jpg"
+          alt="Bussiness man arms crossed"
         />
-        <input type="hidden" name="csrf_token" value="*****" />
-        <input type="submit" value="Register" />
-      </form>
-    </div>
-    <img src="./images/Bussiness man arms crossed.jpg" alt="Industrial business man">
+      </section>
+    </main>
+
     <!--This is a bootstrap extension-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
