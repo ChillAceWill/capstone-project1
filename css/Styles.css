@@ -1,0 +1,112 @@
+body {
+  background-image: url(/images/cozy.gif);
+ ;
+}
+
+h1, h2, h3 {
+  color: lavenderblush;
+}
+
+.grid {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left:15%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  
+  font-size: small;
+
+}
+
+.center {
+ display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: lavenderblush;
+}
+
+table, th, td {
+  margin: 100px 100px 100px  ;
+}
+
+.cart-pic { display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: 2px solid lavenderblush;
+  
+
+}
+
+.price {
+  width:10px;
+  height:10px;
+}
+
+.decription {
+  width: 50px;
+  height: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+float: right;
+  
+}
+
+.addtocart {
+  border: none;
+  padding: 15px 15px;
+  text-align:end;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
+
+th {
+  text-decoration: underline;
+  color:lavenderblush;
+}
+
+input[type=text]{
+  width: 50%;
+}
+input[type=password]{
+  width: 50%;
+}
+input[type=submit]{
+  width: 50%;
+}
+input[type=checkbox]{
+  vertical-align: bottom;
+  margin-right: 100%;
+}
+input[type=tel]{
+  width: 50%;
+}
+.mainp1 {
+  margin-left: 25%;
+  width: 40%;
+}
+.mainp2  {
+  margin-left: 30%;
+}
+
+.mainp3 {
+  margin-left: 20%;
+}
+
+.align-middle{
+  width:50%;
+  display: block;
+  align-content: center;
+  align-items: center;
+}
+
+
