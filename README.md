@@ -1,6 +1,6 @@
 # capstone-project1
 
-The name of my site is LENA industrial we are a family industrial hardware store.
+The name of my site is GENA industrial we are a family industrial hardware store.
 
 - I have a top navbar that I sourced from bootstrap using w3schools. I also changed the color of it by updating the class name.
 - Included on the home page are two paragraphs as well as an unordered list. I added a class to the image and centered it using the margin-left property in my css.
@@ -32,7 +32,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
   - 'Add to cart' buttons will lead to the checkout page
   - Success Page - on click of payment info submission
 
-  # Lena Industrial site Screenshots
+  # Gena Industrial site Screenshots
 Homepage
 ![image](https://user-images.githubusercontent.com/129989372/233500558-6b5bd36b-757d-492b-b3eb-927872942004.png)
 
