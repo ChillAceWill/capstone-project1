@@ -9,7 +9,7 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - The picture on this page was centered with a class that has a margin-left property value of 30% because of the image size.
 - There are validations on the username and password making them required.
   # Registration
-- Includes a paragraph of tex.
+- Includes a paragraph of text.
 - as with the login page there are validated form fields.
 - a radio button is also featured.
   # Products
@@ -21,9 +21,14 @@ The name of my site is LENA industrial we are a family industrial hardware store
 - The pictures were placed in a flexbox, which then allowed me to place them in columns.
 - This page also features a shipping form with required validations.
   # Featured HTML and CSS from this project
-- Top Navigation with Login, Registration accessible via a login button right aligned on the top nav
-- highights to form inputs
-- navigation will always show the active page in the nav bar
+- Navigation will always show the active page in the nav bar
+- Forms highlight one you click into the form field
+- The checkout page features two buttons that allow access to the Shipping & Payment info forms via a modal window; added using bootstrap
+- All of my buttons will lead you somewhere:
+  - Registration form submission will lead to login page
+  - Login form submission will lead to the products page
+  - 'Add to cart' buttons will lead to the checkout page
+  - Success Page - on click of payment info submission
 
   # Lena Industrial site Screenshots
 Homepage
@@ -46,4 +51,4 @@ Shipping Info Modal & Payment Info Modal
 ![image](https://user-images.githubusercontent.com/129989372/233500277-6f34a79a-b3d9-4795-8dc4-9df6446a8893.png)
 
 Success Page - on click of payment info submission
-![image](https://user-images.githubusercontent.com/129989372/233500947-dd8b4d85-2e9a-448c-b29c-f5a9c0dacd15.png)
+![image](https://user-images.githubusercontent.com/129989372/233502341-0a297e5e-1506-4053-8e6d-32c509c83fbb.png)
